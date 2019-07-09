@@ -1,0 +1,55 @@
+{
+  "name": "us-material",
+  "version": "1.0.0",
+  "description": "Understrap + Material Design",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "gulp copy-assets"
+  },
+  "engines": {
+    "npm": ">=2.1.8"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "framework",
+    "bootstrap",
+    "material design",
+    "underscores"
+  ],
+  "author": "Dylan Drendel",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-material-design": "^4.1.2",
+    "browser-sync": "^2.26.3",
+    "del": "^4.1.0",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-ignore": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-rimraf": "^0.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "run-sequence": "^2.2.1",
+    "undescores-for-npm": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "autoprefixer": "^9.5.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-postcss": "^8.0.0"
+  }
+}

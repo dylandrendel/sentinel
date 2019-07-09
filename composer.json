@@ -1,0 +1,9 @@
+{
+    "name": "us-material",
+    "description": "Combines Understrap and Bootstrap Material Design",
+    "type": "wordpress-theme",
+    "license": "GPL-2.0",
+    "minimum-stability": "stable",
+    "require": {"composer/installers": "^1.5"},
+    "keywords": ["wordpress","theme","bootstrap","material-design"]
+}

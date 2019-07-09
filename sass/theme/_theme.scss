@@ -1,0 +1,108 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+// SCSS Syntax http://sass-lang.com/documentation/file.SASS_REFERENCE.html#css_extensions
+
+// variable declaration in SCSS we use variables to keep style clean and easy to modify
+// if we use this variable to say 50 rules and want to change the color, we would change only this variable.
+
+nav {
+  a {
+    color: white !important;
+  &:hover {
+    color: lightgrey !important;
+  }
+}
+}
+
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+nav.navbar {
+  li {
+    padding-left: 12px;
+    padding-right: 12px;
+    .nav-link {
+      text-transform: capitalize;
+    }
+  }
+  li.cta {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    .nav-link {
+      text-transform: uppercase;
+    }
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+}
+
+.dropdown-menu {
+  background-color: #383838d5 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #383838d5 !important;
+}
+
+.container-fluid.home-img {
+  background-image: url("../../us-material/img/home2.jpg");
+  background-size: cover;
+  background-position: bottom right;
+  height: calc(100vh - 75px);
+  overflow: auto;
+  .home-title {
+    margin-top: 80px;
+    //padding: 24px;
+    text-align: center;
+    color: white;
+  }
+  .home-description {
+    padding: 24px 0px;
+    text-align: center;
+    color: lightgrey;
+  }
+  .home-cta {
+    padding: 10px 24px;
+  }
+}
+
+
+.container-fluid.contact {
+  background-image: url("../../us-material/img/contact.jpg");
+  background-size: cover;
+  height: calc(100vh - 75px);
+  overflow: auto;
+  padding: 40px;
+  color: white;
+  @include media-breakpoint-down(sm) {
+    padding: 20px;
+  }
+  .card {
+    background-color: #383838d5;
+  }
+}
+
+.action-buttons {
+  padding-top: 24px;
+}
+
+.response {
+  padding: 20px;
+  .success {
+    color: map-get($theme-colors, "success");
+    padding-right: 15px;
+  }
+  .error {
+    color: map-get($theme-colors, "danger");
+    padding-right: 15px;
+  }
+}
+
+
+.footer {
+  background-color: #383838;
+  color: white;
+  padding: 24px;
+}
